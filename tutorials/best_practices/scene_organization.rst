@@ -265,7 +265,7 @@ in another context without any extra changes to its API.
           GDCLASS(Left, Node)
 
           protected:
-              static void _bind_methods() {} 
+              static void _bind_methods() {}
 
           public:
               Node *target = nullptr;
@@ -389,8 +389,8 @@ If you have a system that...
   to swap out the main scene's content. This structure more or less keeps
   the "World" as the main game node.
 
-  Any GUI would also need to be either a singleton, a transitory part of the 
-  "World", or manually added as a direct child of the root. Otherwise, the 
+  Any GUI would also need to be either a singleton, a transitory part of the
+  "World", or manually added as a direct child of the root. Otherwise, the
   GUI nodes would also delete themselves during scene transitions.
 
 If you have systems that modify other systems' data, you should define those as

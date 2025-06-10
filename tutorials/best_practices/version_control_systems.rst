@@ -90,11 +90,11 @@ Git LFS (Large File Storage) is a Git extension that allows you to manage large
 files in your repository. It replaces large files with text pointers inside Git,
 while storing the file contents on a remote server. This is useful for
 managing large assets, such as textures, audio files, and 3D models, without
-bloating your Git repository.  
+bloating your Git repository.
 
 .. note::
 
-    When using Git LFS you will want to ensure it is setup before you commit any files to your repository. 
+    When using Git LFS you will want to ensure it is setup before you commit any files to your repository.
     If you have already committed files to your repository, you will need to
     remove them from the repository and re-add them after setting up Git LFS.
 
@@ -111,13 +111,13 @@ running the following command in your terminal:
 ::
 
     git lfs install
-    
+
 This will create a ``.gitattributes`` file in your repository that tells Git to
 use LFS for the specified file types. You can add more file types by modifying
 the ``.gitattributes`` file. For example, to track all GLB files, you can do this by
 running the following command in your terminal:
 ::
-    
+
     git lfs track "*.glb"
 
 When you add or modify files that are tracked by LFS, Git will automatically
@@ -127,7 +127,7 @@ stored separately from the rest of your Git history. This means that you may
 need to install Git LFS on any machine that you clone the repository to in
 order to access the LFS files.
 
-Below is an example ``.gitattributes`` file that you can use as a starting point for Git LFS. 
+Below is an example ``.gitattributes`` file that you can use as a starting point for Git LFS.
 These file types were chosen because they are commonly used, but you can modify the list to include any binary types you may have in your project.
 
 .. code-block:: unixconfig

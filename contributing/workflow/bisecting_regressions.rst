@@ -71,7 +71,7 @@ Determine the commit hashes
 
 To start bisecting, you must first determine the commit hashes (identifiers) of
 the "bad" and "good" build. "bad" refers to the build that exhibits the bug,
-whereas "good" refers to the version that doesn't exhibit the bug. 
+whereas "good" refers to the version that doesn't exhibit the bug.
 
 You can use either a commit hash (like ``06acfccf8``), the tag of a stable
 release (like ``4.2.1-stable``), or a branch like ``master``.

@@ -80,7 +80,7 @@ Limitations & known issues
 
 Here are the known limitations and issues of the XR editor:
 
-- No Meta Quest 2 support due to the limited amount of memory on the device. 
+- No Meta Quest 2 support due to the limited amount of memory on the device.
   However advanced users can grab the XR editor APK from the `download page <https://godotengine.org/download/preview/>`__
   and sideload it onto their device if they desire to do so.
 - No gradle build support.

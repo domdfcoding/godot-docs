@@ -17,7 +17,7 @@ Each format has different advantages:
 - Ogg Vorbis files use a stronger compression that results in much
   smaller file size, but require significantly more processing power to
   play back.
-- MP3 files use better compression than WAV with IMA-ADPCM or QOA, but worse 
+- MP3 files use better compression than WAV with IMA-ADPCM or QOA, but worse
   than Ogg Vorbis. This means that an MP3 file with roughly equal quality to
   Ogg Vorbis will be significantly larger. On the bright side, MP3 requires
   less CPU usage to play back compared to Ogg Vorbis.

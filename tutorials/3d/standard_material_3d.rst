@@ -272,7 +272,7 @@ You can also use per-vertex lighting to achieve a retro look.
 .. figure:: img/standard_material_shading_modes_textured.webp
   :align: center
   :alt: Two cubes with a brick texture, one shaded and one unshaded.
-  
+
   Texture from `AmbientCG <https://ambientcg.com/view?id=Bricks051>`__
 
 The **Unshaded** shading mode does not calculate lighting at all. Instead, the

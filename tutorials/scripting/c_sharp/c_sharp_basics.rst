@@ -355,8 +355,8 @@ You can read more about this error on the `C# language reference <https://learn.
 Performance of C# in Godot
 --------------------------
 
-.. seealso:: 
-    
+.. seealso::
+
     For a performance comparison of the languages Godot supports,
     see :ref:`doc_faq_which_programming_language_is_fastest`.
 

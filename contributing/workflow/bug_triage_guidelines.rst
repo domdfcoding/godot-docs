@@ -58,8 +58,8 @@ Categories:
      planned``, and ``duplicate``), it is possible for an issue to be closed as
      ``completed`` with the *Archived* label.
    - For PRs, added to all closed PRs that are not merged. This includes superseded
-     or duplicate PRs, Git or GitHub mistakes, and valid PRs that end up not merged. 
-   
+     or duplicate PRs, Git or GitHub mistakes, and valid PRs that end up not merged.
+
 -  *Breaks compat*: describes something that can only be fixed by breaking
    compatibility with existing projects.
 -  *Bug*: describes something that is not working properly.

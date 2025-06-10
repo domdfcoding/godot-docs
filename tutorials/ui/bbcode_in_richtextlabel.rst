@@ -1158,10 +1158,10 @@ Matrix
 
         var value = char_fx.glyph_index
 
-        var matrix_time = fmod(char_fx.elapsed_time + (char_fx.range.x / float(text_span)), \
+        var matrix_time = fmod(char_fx.elapsed_time + (char_fx.range.x / float(text_span)),
                                clear_time + dirty_time)
 
-        matrix_time = 0.0 if matrix_time < clear_time else \
+        matrix_time = 0.0 if matrix_time < clear_time else
                       (matrix_time - clear_time) / dirty_time
 
         if matrix_time > 0.0:

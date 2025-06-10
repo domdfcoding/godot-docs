@@ -58,7 +58,7 @@ All groups present in the project that were marked as Global, created from any s
 
 Any other group derived from nodes in the current scene will appear under Scene Groups.
 
-.. warning:: The same underlying logic is used for both Global and Scene groups. 
+.. warning:: The same underlying logic is used for both Global and Scene groups.
              Groups with the same name are considered one and the same. This feature is purely organizational.
 
 .. image:: img/groups_node_tab_with_multiple_types_of_groups.webp

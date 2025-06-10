@@ -25,7 +25,7 @@ Do not create annotations for general programming language features.
 
     # Affects how the editor treats this script.
     @icon("res://path/to/class/icon.svg")
-    
+
     # Affects how the engine interacts with this script.
     @onready var character_name = $Label
 

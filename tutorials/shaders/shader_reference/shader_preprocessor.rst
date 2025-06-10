@@ -92,11 +92,11 @@ while constants can't do that.
     #define BRIGHTEN_COLOR(r, g, b) vec3(r + 0.5, g + 0.5, b + 0.5)
 
     // Multiline replacement using backslashes for continuation:
-    #define SAMPLE(param1, param2, param3, param4) long_function_call( \
-            param1, \
-            param2, \
-            param3, \
-            param4 \
+    #define SAMPLE(param1, param2, param3, param4) long_function_call(
+            param1,
+            param2,
+            param3,
+            param4
     )
 
     void fragment() {

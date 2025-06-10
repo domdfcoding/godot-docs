@@ -242,7 +242,7 @@ Not matching the physics update rate will cause stuttering as frames are rendere
 
         # Now match our physics rate
         Engine.physics_ticks_per_second = current_refresh_rate
- 
+
     ...
 
   .. code-tab:: csharp
@@ -334,7 +334,7 @@ If you haven't, you can connect a method to the signal that performs additional 
             get_tree().paused = true
 
             emit_signal("focus_lost")
- 
+
     ...
 
   .. code-tab:: csharp

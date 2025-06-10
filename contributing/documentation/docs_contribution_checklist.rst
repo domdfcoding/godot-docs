@@ -63,7 +63,7 @@ GitHub
 
 - The PR title starts with a word like ``Fix``, ``Add``, ``Update``,
   ``Clarify``, or ``Improve``.
-- If the PR closes an issue, link to the issue with one of GitHub's 
+- If the PR closes an issue, link to the issue with one of GitHub's
   `keywords <https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/using-keywords-in-issues-and-pull-requests>`__:
   ``closes``, ``fixes``, or ``resolves``, in the text of the PR.
 - Ideally, PR contains a single commit. However, multiple commits can be

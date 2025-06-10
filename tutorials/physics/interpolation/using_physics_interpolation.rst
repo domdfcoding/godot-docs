@@ -84,7 +84,7 @@ As a rough guide:
 .. csv-table::
     :header: "Low tick rates (10-30)", "Medium tick rates (30-60)", "High tick rates (60+)"
     :widths: 20, 20, 20
-    
+
     "Better CPU performance","Good physics behavior in complex scenes","Good with fast physics"
     "Add some delay to input","Good for first person games","Good for racing games"
     "Simple physics behaviour"

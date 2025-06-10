@@ -285,8 +285,8 @@ Example use of ``acknowledgePurchase()``:
 ::
 
     func _process_purchase(purchase):
-        if "my_one_time_iap_item" in purchase.products and \
-                purchase.purchase_state == PurchaseState.PURCHASED and \
+        if "my_one_time_iap_item" in purchase.products and
+                purchase.purchase_state == PurchaseState.PURCHASED and
                 not purchase.is_acknowledged:
             # Add code to store payment so we can reconcile the purchase token
             # in the completion callback against the original purchase
@@ -361,7 +361,7 @@ Example use of ``updateSubscription``:
 
 ::
 
-    payment.updateSubscription(_active_subscription_purchase.purchase_token, \
+    payment.updateSubscription(_active_subscription_purchase.purchase_token,
                         "new_sub_sku", SubscriptionProrationMode.IMMEDIATE_WITH_TIME_PRORATION)
 
 

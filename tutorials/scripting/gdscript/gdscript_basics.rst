@@ -669,16 +669,16 @@ it's where the backslash is. Here is an example:
 
 ::
 
-    var a = 1 + \
+    var a = 1 +
     2
 
 A line can be continued multiple times like this:
 
 ::
 
-    var a = 1 + \
-    4 + \
-    10 + \
+    var a = 1 +
+    4 +
+    10 +
     4
 
 .. _doc_gdscript_builtin_types:
@@ -1694,10 +1694,10 @@ multiple lines to preserve readability:
 
     # Alternative syntax with backslashes instead of parentheses (for multi-line expressions).
     # Less lines required, but harder to refactor.
-    var fruit_alt = \
-            "apple" if count == 2 \
-            else "pear" if count == 1 \
-            else "banana" if count == 0 \
+    var fruit_alt =
+            "apple" if count == 2
+            else "pear" if count == 1
+            else "banana" if count == 0
             else "orange"
     print(fruit_alt)  # banana
 

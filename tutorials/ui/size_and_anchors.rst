@@ -9,9 +9,9 @@ resolution, positioning controls would be a simple matter of setting the
 position and size of each one of them. Unfortunately, that is rarely the
 case.
 
-While some configurations may be more common than others, devices like 
-phones, tablets and portable gaming consoles can vary greatly. Therefore, 
-we often have to account for different aspect ratios, resolutions and user 
+While some configurations may be more common than others, devices like
+phones, tablets and portable gaming consoles can vary greatly. Therefore,
+we often have to account for different aspect ratios, resolutions and user
 scaling.
 
 There are several ways to account for this, but for now, let's just imagine
@@ -22,7 +22,7 @@ the top of the screen, or maybe the right or left margins.
 .. image:: img/anchors.png
 
 This is done by editing the *anchor offsets* of controls, which behave similar
-to a margin. To access these settings, you will first need to select the *Custom* 
+to a margin. To access these settings, you will first need to select the *Custom*
 anchor preset.
 
 Each control has four anchor offsets: left, right, bottom, and top, which correspond
